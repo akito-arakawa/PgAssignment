@@ -27,7 +27,7 @@ function isValid($s)
             return false;
         }
     }
-    return empty($stack); // stackが空の場合ture、残っていたらfalse
+    return empty($stack); // stackが空の場合true、残っていたらfalse
 }
 
 $s = '()';
